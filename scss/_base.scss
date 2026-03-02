@@ -1,0 +1,54 @@
+@import "variables";
+
+// ===============================
+// Base
+
+body {
+  font-family: $font-body;
+  background-color: $color-rose-light;
+  margin: 0;
+  padding: 0;
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+section {
+  scroll-margin-top: 140px;
+}
+
+
+// ===============================
+// Typography System
+
+h1, h2, h3 {
+  font-family: $font-heading;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-size: clamp(1.8rem, 2.2vw, 1.6rem);
+  font-weight: $font-weight-regular;
+  line-height: 1.6;
+}
+
+p {
+  line-height: 1.7;
+}
+
+
+
+
+  
